@@ -1,0 +1,152 @@
+
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Poppins', sans-serif;   
+}
+
+nav{
+    height: auto;
+    padding:  0px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    margin-left: 20px;
+}
+.logo-img{
+    width: 100%;
+    border-radius: 50%;
+}
+.owner h1,p{
+    text-transform: uppercase;
+    font-size: 200%;
+    color: blue
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-right{
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.nav-right-top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-left: 15%;
+}
+.nav-right-top-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-size: 150%;
+}
+a.goldenrod{
+    color: goldenrod;
+   
+}
+a.goldenrod:hover{
+    color: blue;
+    transition: .9s;
+}
+a.blue{
+    color: blue;
+}
+a.blue:hover{
+    color: goldenrod;
+    transition: .9s;
+}
+.nav-right-top-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.nav-right-top-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon{
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 0px;
+    padding: 6px 2%;
+}
+nav ul li:hover{
+    background-color: rgb(140, 140, 233);
+    transition: .5s;
+}
+nav ul li a{
+    font-size: 108%;
+}
+nav ul li a:hover{
+    color: rgb(142, 103, 3);
+}
+#dropdown{
+    background:  #fff;
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    width: 20px;
+    height: 20px;
+    visibility:hidden;
+}
+
+li:hover ul#dropdown{
+    visibility: visible;
+    top: 97px;
+    padding: 30px 1%;
+    display: table-row;
+    width: 20%;
+    text-align: left;
+    height: auto;
+    background:rgb(140, 140, 233)  ;
+    font-size: 70%;
+    margin-left: -1%;
+    transition: 0.5s;
+    
+}
+li:hover ul#dropdown li{
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#dropdown a{
+    color: #fff;
+    padding: 0;
+    font-size: 150%;
+}
+#dropdown a:hover{
+    color: goldenrod;
+}
+.trademark{
+    border: 1px solid black;
+    margin-top: 200px;
+}
