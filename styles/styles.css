@@ -2,13 +2,15 @@
 *{
  padding: 0;
  margin: 0;
- font-family: 'Poppins', sans-serif;   
+    
 }
-
+body{
+    font-family: 'Poppins', sans-serif; 
+}
 nav{
     height: auto;
     padding:  0px;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -43,8 +45,8 @@ nav{
 .nav-right-top{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 100%;
-    margin-left: 15%;
+    width: 90%;
+    margin-left: 7%;
 }
 .nav-right-top-left{
     display: flex;
@@ -55,18 +57,17 @@ a{
     text-decoration: none;
     font-size: 150%;
 }
-a.goldenrod{
+.goldenrod{
     color: goldenrod;
-   
 }
-a.goldenrod:hover{
+.goldenrod:hover{
     color: blue;
     transition: .9s;
 }
-a.blue{
+.blue{
     color: blue;
 }
-a.blue:hover{
+.blue:hover{
     color: goldenrod;
     transition: .9s;
 }
@@ -99,6 +100,7 @@ nav ul li{
 }
 nav ul li:hover{
     background-color: rgb(140, 140, 233);
+    border-radius: 50px;
     transition: .5s;
 }
 nav ul li a{
@@ -129,13 +131,14 @@ li:hover ul#dropdown{
     font-size: 70%;
     margin-left: -1%;
     transition: 0.5s;
-    
+    border-radius: 50px;
 }
 li:hover ul#dropdown li{
     border: 2px solid #fff;
     border-top: none;
     border-left: none;
     border-right: none;
+    border-radius: 0;
 }
 
 #dropdown a{
@@ -147,6 +150,79 @@ li:hover ul#dropdown li{
     color: goldenrod;
 }
 .trademark{
-    border: 1px solid black;
-    margin-top: 200px;
+    padding: 50px 0;
+}
+.trademark-left{
+    width: 90%;
+}
+.trademark-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 0;
+}
+.trademark-left-content{
+    padding: 50px 0;
+}
+.trademark-left-content p{
+    color:rgb(244, 244, 60);
+    font-size: 700%;
+    text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 20%;
+}
+.trademark-left-content p:hover{
+    color:rgb(244, 244, 60);
+}
+p.blue{
+    color: rgb(89, 89, 243);
+    font-weight: 500;
+    line-height: 65px;
+    font-size: 400%;
+    width: 130%;
+}
+p.blue:hover{
+    color: rgb(140, 140, 244);
+}
+p.small{
+    font-size: 250%;
+    width: 78%;
+    margin-left: 50%;
+    line-height: 35px;
+    color: red;
+    font-weight: normal;
+}
+p.small:hover{
+    color: red;
+}
+
+.trademark-btn{
+    background-color: rgb(89, 89, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    padding: 10px 10%;
+    margin-left: 50%;
+    margin-top: 30px;
+    color: rgb(244, 244, 60);
+   text-transform: uppercase;
+   font-size: 100%;
+   margin-bottom: 50px;
+   border-radius: 30px;
+}
+
+.trademark-btn:hover{
+  background:  rgb(244, 244, 60);
+  color:rgb(89, 89, 243);
+  font-weight: bold;
+  transition: .5s;
+}
+.trademark-right-content{
+    width: 110%;
+    margin-left: -10%;
+    z-index: -1;
+
+}
+.photo{
+    width: 100%;
 }
