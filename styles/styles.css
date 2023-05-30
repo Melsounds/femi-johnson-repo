@@ -27,7 +27,7 @@ nav{
 .owner h1,p{
     text-transform: uppercase;
     font-size: 200%;
-    color: blue
+    color: #006D7E;
 }
 
 .nav-left{
@@ -58,17 +58,17 @@ a{
     font-size: 150%;
 }
 .goldenrod{
-    color: goldenrod;
+    color: #FFD300;
 }
 .goldenrod:hover{
-    color: blue;
+    color: #006D7E;
     transition: .9s;
 }
 .blue{
-    color: blue;
+    color: #006D7E;
 }
 .blue:hover{
-    color: goldenrod;
+    color: #FFD300;
     transition: .9s;
 }
 .nav-right-top-center{
@@ -95,19 +95,20 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-left: 0px;
+    margin-left: 2%;
     padding: 6px 2%;
 }
 nav ul li:hover{
-    background-color: rgb(140, 140, 233);
+    background-color:#006D7E  ;
     border-radius: 50px;
     transition: .5s;
 }
 nav ul li a{
-    font-size: 108%;
+    font-size: 90%;
+    color: #006D7E;
 }
 nav ul li a:hover{
-    color: rgb(142, 103, 3);
+    color: #FFD300;
 }
 #dropdown{
     background:  #fff;
@@ -121,13 +122,13 @@ nav ul li a:hover{
 
 li:hover ul#dropdown{
     visibility: visible;
-    top: 97px;
+    top: 98px;
     padding: 30px 1%;
     display: table-row;
     width: 20%;
     text-align: left;
     height: auto;
-    background:rgb(140, 140, 233)  ;
+    background: #006D7E;
     font-size: 70%;
     margin-left: -1%;
     transition: 0.5s;
@@ -147,47 +148,60 @@ li:hover ul#dropdown li{
     font-size: 150%;
 }
 #dropdown a:hover{
-    color: goldenrod;
+    color: #FFD300;
 }
 .trademark{
     padding: 50px 0;
+    width: 100%;
+    
 }
-.trademark-left{
-    width: 90%;
+.trademark-contents{
+    width: 100%;
 }
 .trademark-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0px 0;
+    width: 100%;
+}
+
+.trademark-left{
+    width: 100%;
+    margin-left: 5%;
 }
 .trademark-left-content{
     padding: 50px 0;
+    margin-left: 0%;
+    width: 100%;
 }
 .trademark-left-content p{
-    color:rgb(244, 244, 60);
-    font-size: 700%;
+    color: #FFD300;
+    font-size: 650%;
     text-transform: uppercase;
-  font-weight: bold;
-  margin-left: 20%;
+  font-weight: 700;
+  margin-left: 0%;
+  width: 100%;
+  line-height: 100%;
 }
 .trademark-left-content p:hover{
-    color:rgb(244, 244, 60);
+    color: #FFD300;
 }
 p.blue{
-    color: rgb(89, 89, 243);
+    color: #006D7E;
     font-weight: 500;
-    line-height: 65px;
-    font-size: 400%;
+    line-height: 100%;
+    font-size: 350%;
     width: 130%;
+    margin-left: 10%;
 }
 p.blue:hover{
-    color: rgb(140, 140, 244);
+    color: #006D7E;
 }
 p.small{
-    font-size: 250%;
-    width: 78%;
-    margin-left: 50%;
-    line-height: 35px;
+    font-size: 200%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20%;
+    line-height: 95%;
     color: red;
     font-weight: normal;
 }
@@ -196,15 +210,15 @@ p.small:hover{
 }
 
 .trademark-btn{
-    background-color: rgb(89, 89, 243);
+    background-color: #006D7E;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 45%;
     padding: 10px 10%;
-    margin-left: 50%;
+    margin-left: 25%;
     margin-top: 30px;
-    color: rgb(244, 244, 60);
+    color: #FFD300;
    text-transform: uppercase;
    font-size: 100%;
    margin-bottom: 50px;
@@ -212,17 +226,67 @@ p.small:hover{
 }
 
 .trademark-btn:hover{
-  background:  rgb(244, 244, 60);
-  color:rgb(89, 89, 243);
+  background:  #FFD300;
+  color: #006D7E;
   font-weight: bold;
   transition: .5s;
 }
 .trademark-right-content{
-    width: 110%;
-    margin-left: -10%;
+    width: 125%;
+    margin-left: -30%;
     z-index: -1;
-
 }
 .photo{
     width: 100%;
+}
+.office{
+    width: 100%;
+    background-color: #006D7E;
+    padding: 170px 0;
+}
+.office-contents{
+    width: 100%;
+}
+.office-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+.office-content-left{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-cont{
+    width: 70%;
+    height: 150%;
+}
+.photo2{
+    width: 100%;
+    height: 100%;
+}
+.office-content-right{
+    width: 97%;
+    margin-left: -2%;
+    padding: 0 2%;
+}
+.title{
+    width: 100%;
+}
+.title p{
+    width: 100%;
+    font-size: 450%;
+    font-weight: 500;
+    color:  #59BAB6;
+}
+.sub-title{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.sub-title p{
+    color: #FFD300;
+    font-weight: bold;
+    font-size: 150%;
+    text-transform: none;
 }
