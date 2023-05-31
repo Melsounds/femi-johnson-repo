@@ -8,6 +8,13 @@ body{
     font-family: 'Poppins', sans-serif; 
     /*overflow-x: hidden;*/
 }
+.scroll-tracker{
+    position: fixed;
+    inset: 0 0 auto;
+    height: 0.3rem;
+    background-color: #006D7E;
+    transform-origin: left;
+}
 nav{
     height: auto;
     padding-top:  20px;
