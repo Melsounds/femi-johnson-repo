@@ -130,7 +130,7 @@ nav ul li a:hover{
 
 li:hover ul#dropdown{
     visibility: visible;
-    top: 102px;
+    top: 114px;
     padding: 30px 1%;
     display: table-row;
     width: 20%;
@@ -214,6 +214,7 @@ p.small{
     color: red;
     font-weight: normal;
     transform: scaleY(3);
+    font-family: italic;
 }
 p.small:hover{
     color: red;
@@ -333,7 +334,7 @@ p.small:hover{
     margin-top: 100px;
 }
 .sub-title-txt{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .sub-title-txt p{
     color: #fff;
@@ -354,14 +355,16 @@ p.small:hover{
 }
 .business-philosophy-contents{
     width: 100%;
-    
 }
 .business-philosophy-content{
     width: 45%;
-    border-radius: 60px;
-    background: #000;
+    background: #fff;
     height: 700px;
     margin-left: 5%;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 60px;
 }
 .business-philosophy-content-title{
     width: 70%;
@@ -380,4 +383,27 @@ p.small:hover{
     margin-top: 85px;
     transform: scaleY(2);
     font-weight: bold;
+}
+.business-philosophy-btns{
+    margin-top: 100px;
+}
+.business-philosophy-btn{
+    border: 1.5px solid #59BAB6;
+    color: #fff;
+    transform: scaleY(2);
+    width: 100%;
+    padding: 10px 2.5%;
+    margin-top: 58px;
+    color: #006D7E;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.business-philosophy-btn:hover{
+    background-color: #f1f6f7;
+    filter:opacity(100%);
+}
+.vector-menu{
+    margin-left: 50px;
+    width: 1.5%;
 }
