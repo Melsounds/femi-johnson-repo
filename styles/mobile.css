@@ -1,0 +1,144 @@
+@media screen and (max-width:767px){
+    *{
+        margin: 0;
+        padding: 0;
+        /*overflow-x: hidden;*/
+    }
+    nav{
+        width: 100%;
+        padding: 10px 0;
+        }
+    .logo{
+        width: 20%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .logo-img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .owner h1,p{
+        text-transform: uppercase;
+        font-size: 100%;
+        color: #006D7E;
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .nav-right{
+    display: none;
+    }
+    .search-icon{
+    width: 30%;
+    margin-left: 60%;
+    height: 50px;
+    }
+    .trademark{
+        padding-top: 0px;
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #fff;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+    .trademark-contents{
+        width: 100%;
+    }
+    .trademark-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        background-color: #fff;
+    }
+    
+    .trademark-left{
+        width: 90%;
+        margin-left: 0%;
+        z-index: 1;
+    }
+    .trademark-left-content{
+        padding: 0px;
+        margin-left: 20%;
+        width: 100%;
+        margin-top: -30px;
+    }
+    .trademark-left-content p{
+        color: #FFD300;
+        font-size: 225%;
+        font-weight: bold;
+        text-transform: uppercase;
+      margin-left: 0%;
+      width: 100%;
+      line-height: 100%;
+      transform: scaleY(2);
+    }
+    .trademark-left-content p:hover{
+        color: #FFD300;
+    }
+    p.blue{
+        color: #006D7E;
+        font-weight: 500;
+        line-height: 3;
+        font-weight: bold;
+        font-size: 100%;
+        width: 130%;
+        margin-left: 0%;
+        transform: scaleY(2);
+    }
+    p.blue:hover{
+        color: #006D7E;
+    }
+    p.small{
+        font-size: 80%;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0%;
+        line-height: 95%;
+        color: red;
+        font-weight: bold;
+        transform: scaleY(3);
+        font-family: italic;
+    }
+    p.small:hover{
+        color: red;
+    }
+    
+    .trademark-btn{
+        background-color: #006D7E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        padding: 10px 5%;
+        margin-left: 0%;
+        margin-top: 100px;
+        color: #FFD300;
+       text-transform: uppercase;
+       font-size: 100%;
+       margin-bottom: 50px;
+       border-radius: 30px;
+       text-decoration: none;
+    }
+    .trademark a{
+        text-decoration: none;
+        color: #FFD300;
+    }
+    .trademark a:hover{
+        color: #006D7E;
+    }
+    .trademark-btn:hover{
+      background:  #FFD300;
+      transition: .5s;
+    }
+    .trademark-right-content{
+        grid-row: 1;
+        width: 100%;
+        margin-top: -90px;
+    }
+    .photo{
+        width: 100%;
+    }
+    
+}
