@@ -1,0 +1,46 @@
+@media screen and (min-width:1060px){
+    nav{
+        padding: 0;
+    }
+    .logo{
+        width: 20%;
+        margin-left: 15px;
+    }
+    .owner h1,p{
+        font-size: 150%;
+    }
+    a{
+        text-decoration: none;
+        font-size: 90%;
+    }
+    .nav-right-top{
+        width: 100%;
+        margin-left: -5%;
+    }
+    .nav-right-top-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        
+    }
+    
+    .nav-right-top-right .blue{
+        margin-left: -30%;
+        width: 150%;
+    }
+    .trademark-left-content p{
+        font-size: 325%;
+    }
+    p.blue{
+        font-size: 175%;
+    }
+    p.small{
+        font-size: 100%;
+    }
+    
+    .submit{
+        font-size: 120%;
+    }
+    
+}
