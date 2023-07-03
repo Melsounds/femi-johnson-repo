@@ -8,8 +8,8 @@ body{
     font-family: 'Poppins', sans-serif; 
 }
 nav{
-    height: auto;
-    padding-top:  20px;
+    height: 130px;
+    padding-top:  0px;
     position: fixed;
     width: 100%;
     display: flex;
@@ -19,9 +19,15 @@ nav{
     background-color: whitesmoke;
 }
 .logo{
-    width: 30%;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
     margin-left: 20px;
-    margin-top: -15px;
+    margin-top: 0px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo-img{
     width: 100%;
@@ -43,7 +49,7 @@ nav{
     width: 50%;
     text-transform: uppercase;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .nav-right-top{
     display: grid;
@@ -58,7 +64,7 @@ nav{
 }
 a{
     text-decoration: none;
-    font-size: 150%;
+    font-size: 120%;
 }
 .goldenrod{
     color: #FFD300;
@@ -89,7 +95,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 nav ul li{
     list-style: none;
@@ -102,7 +108,7 @@ nav ul li:hover{
     transition: .5s;
 }
 nav ul li a{
-    font-size: 80%;
+    font-size: 70%;
     color: #006D7E;
 }
 nav ul li a:hover{
@@ -120,7 +126,7 @@ nav ul li a:hover{
 
 li:hover ul#dropdown{
     visibility: visible;
-    top: 152px;
+    top: 98px;
     padding: 30px 1%;
     display: table-row;
     width: 20%;
@@ -250,11 +256,12 @@ p.small:hover{
 .office{
     width: 100%;
     background-color: #006D7E;
-    padding-top: 170px;
+    padding-top: 80px;
     padding-bottom: 280px;
 }
 .office-contents{
     width: 100%;
+    padding: 0 20px;
 }
 .office-content{
     display: grid;
@@ -263,22 +270,24 @@ p.small:hover{
 }
 .office-content-left{
     width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 .img-cont{
-    width: 70%;
-    height: 130%;
+    width: 100%;
+    height: 100%;
+    
 }
 .photo2{
     width: 100%;
     height: 100%;
 }
 .slogan{
-    margin-top: -50px;
-    margin-left: -5%;
-    width: 130%;
+    margin-top: -25px;
+    margin-left: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .slogan-content p{
     color:  #59BAB6;
@@ -294,7 +303,11 @@ p.small:hover{
     width: 42%;
     margin-top: 60px;
     padding: 10px 2%;
+    margin-left: 25%;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
 }
 
