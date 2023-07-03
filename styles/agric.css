@@ -159,6 +159,7 @@ li:hover ul#dropdown li{
     color: #FFD300;
 }
 .container{
-    background-color: #000;
+    background: #000;
+    border: 1px solid black;
 }
 }
