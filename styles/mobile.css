@@ -10,7 +10,9 @@
     nav{
         width: 100%;
         padding: 10px 0;
-        background: #000;
+        position: fixed;
+        background: whitesmoke;
+        z-index: 2;
         }
     .logo{
         width: 20%;
