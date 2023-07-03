@@ -6,17 +6,18 @@
 }
 body{
     font-family: 'Poppins', sans-serif; 
+    overflow-x: hidden;
 }
 nav{
     height: 130px;
-    padding-top:  0px;
+    padding:0px;
     position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
     background-color: whitesmoke;
+    z-index: 2;
 }
 .logo{
     width: 25%;
@@ -55,7 +56,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
-    margin-left: 7%;
+    margin-left: 0%;
 }
 .nav-right-top-left{
     display: flex;
@@ -95,7 +96,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 nav ul li{
     list-style: none;
@@ -126,7 +127,7 @@ nav ul li a:hover{
 
 li:hover ul#dropdown{
     visibility: visible;
-    top: 98px;
+    top: 80px;
     padding: 30px 1%;
     display: table-row;
     width: 20%;
