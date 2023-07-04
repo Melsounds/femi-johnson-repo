@@ -159,7 +159,6 @@ li:hover ul#dropdown li{
 }
 .container{
     width: 99.85%;
-    border: 1px solid black;
     }
 .aboutus-cont{
     width: 100%;
@@ -411,4 +410,192 @@ li:hover ul#dropdown li{
         font-weight: bold;
         text-transform: none;
     }
+    .contact-container{
+        width: 100%;
+        background-color: #006D7E;
+    }
+    .contact-contents{
+        width: 100%;
+    }
+    .contact-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-left{
+        padding-top: 100px;
+        padding-bottom: 200px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contact-left-content h1{
+        text-transform: uppercase;
+        color: #fff;
+        transform: scaleY(1.5);
+        font-size: 50px;
+        margin-top: 70px;
+        font-weight: normal;
+        word-spacing: 20px;
+        letter-spacing: 10px;
+    }
+    .contact-left-content h1 span{
+        color: #FFD300;
+        
+    }
+    .contact-left-content p{
+        color: #fff;
+        margin-top: 70px;
+        font-family: 'italic';
+        transform: scaleY(1.5);
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    p.phone-no{
+        color: #FFD300;
+        font-size: 40px;
+        font-weight: normal;
+        margin-top: 40px;
+        transform: scaleY(1);
+    }
+    p.narrative{
+        text-transform: none;
+    }
+    
+    .contact-right{
+        padding-top: 100px;
+        padding-bottom: 200px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    form{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #fff;
+    }
+    .form-title{
+       text-transform: none;
+       font-size: 200%;
+       text-align: center;
+    }
+    .form-title p{
+        text-transform: none;
+    } 
+    input{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2.5px solid #006D7E;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 50px;
+    }
+    ::placeholder{
+        font-size: 180%;
+        font-weight: normal;
+    }
+    textarea{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-top: 30px;
+        border-bottom: 2.5px solid #006D7E;
+    }
+    .submit{
+        background: #006D7E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 150%;
+        color:#FFD300;
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+    .submit:hover{
+        background: #ffd300;
+        color:#006D7E;
+        border: none;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .footer{
+        width: 100%;
+        background-color: #074c57;
+    }
+    .footer-content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 10%;
+    }
+    .footer-left-content{
+        padding: 30px 0;
+    }
+    .footer-content p{
+        color:#fff;
+        font-size: 13px;
+        font-weight: normal;
+        text-transform: none;
+        transform: scaleY(1.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-content span{
+        border: 1.5px solid #fff;
+        color:#fff;
+        border-radius: 50%;
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .footer-left-content a{
+        font-size: 13px;
+        font-weight: normal;
+        color: #5eb0bc;
+        text-decoration: underline;
+        transform: scaleX(0.9);
+    }
+    .footer-left-content a:hover{
+        color:#ffd300;
+        text-decoration: none;
+        transition: .5s;
+    }
+    .footer-left-content .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-left-content .links ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .footer-left-content .links ul li{
+        list-style: none;
+        margin-left: 10px;
+        transform: scaleY(1.7);
+    }
+    .kudos{
+        margin-top: 20px;
+        text-align: center;
+        transform: scaleY(1.9);
+    }
+    .kudos a{
+        text-transform: uppercase;
+        word-spacing: 2.5px;
+        color: #5eb0bc;
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+    .kudos a:hover{
+        text-decoration: underline;
+    }    
 }
