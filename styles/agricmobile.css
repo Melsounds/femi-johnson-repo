@@ -1,0 +1,479 @@
+@media screen and (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        /*overflow-x: hidden;*/
+    }
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
+        padding: 10px 0;
+        position: fixed;
+        background: whitesmoke;
+        z-index: 2;
+        }
+    .logo{
+        width: 20%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .logo-img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .owner h1,p{
+        text-transform: uppercase;
+        font-size: 100%;
+        color: #006D7E;
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .nav-right{
+    display: none;
+    }
+    .search-icon{
+    width: 30%;
+    margin-left: 60%;
+    height: 50px;
+    }
+    .container{
+        width: 99.85%;
+        }
+    .aboutus-cont{
+        width: 100%;
+        background-blend-mode: multiply;
+        background-image: url(https://farmkart.ng/wp-content/uploads/2021/05/Frame-1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+    .aboutus{
+        width: 93.2%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 20px;
+    }
+    .about-left{
+        width: 100%;
+        height: 200px;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-left p{
+        color: brown;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        width: 69%;
+    }
+    .about-left h1{
+        color: green;
+        margin-top: 20px;
+        text-align: center;
+        width: 80%;
+        font-weight: bold;
+        font-size: 38px;
+    }
+    .about-right{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sample-img{
+        width: 100%;
+        height: 450px;
+        margin-left: 0%;
+        margin-top: 0px;
+    
+    }
+    .sample-img img{
+        width: 100%;
+        height: 400px;
+     
+    }
+    .previlages{
+        display: none;
+    }  
+    .offers{
+        width: 99.86%;
+        margin-top: 180px;
+        background-color: #fff;
+        
+    }
+    .offer-cont{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .offer-cont-title{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .offer-cont-title p{
+        color: brown;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: none;
+        text-align: center;
+        margin-left: -2%;
+    }
+    .offer-cont-subtitle{
+        width: 99.8%;
+        margin-left: 0%;
+        margin-top: 20px;
+      
+    }
+    .offer-cont-subtitle h1{
+        font-size: 30px;
+        width: 98%;
+        text-align: center;
+        color: green;
+    }
+    .info{
+        width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
+    }
+    .info p{
+        font-size: 18px;
+        width: 90%;
+        color: rgb(141, 108, 108);
+        word-spacing: 2px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: none;
+    }
+    .personal-offers{
+        width: 100%;
+    }
+    .personal-offer-cont{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    .personal-offer{
+        width: 60%;
+        margin-left: 5%;
+        border-radius: 10px;
+        padding-top: 50px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgb(247, 243, 243);
+        margin-bottom: 50px;
+    }
+    .personal-offer-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .personal-offer-img img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .personal-offer-title{
+        margin-top: 30px;
+    }
+    .personal-offer-title p{
+        font-size: 30px;
+        color: #000;
+    }
+    .personal-offer-text{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .personal-offer-text p{
+        font-size: 15px;
+        color: grey;
+        text-transform: none;
+    }
+    .partners{
+        width: 96.89%;
+        border: 2px solid rgb(202, 197, 197);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 1.62%;
+         background-color: whitesmoke;
+    }
+    .partners-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .partners-title p{
+        color: rgb(58, 57, 57);
+        font-size: 15px;
+    }
+    .partners-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .partner{
+        width: 30%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .partner-img{
+        width: 90%;
+    }
+    .partner-img img{
+        width: 100%;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+    .partner-img img:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+        filter: grayscale(0);
+    }
+    .opinions{
+        width: 90%;
+        padding-top: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 80px;
+        margin-top: 20px;
+    }
+    
+    .opinion-cont-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .opinion-cont-title h1{
+        font-size: 25px;
+        color: green;
+    }
+    .opinion{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }.om{
+        background-color: rgb(237, 230, 230);
+    }
+    .name{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .opinion .txt{
+        text-align: left;
+    }
+    .name p{
+        color: green;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: none;
+    }
+    .contact-container{
+        width: 100%;
+        background-color: #006D7E;
+    }
+    .contact-contents{
+        width: 100%;
+    }
+    .contact-content{
+        grid-template-columns: 1fr;
+    }
+    .contact-left{
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contact-left-content h1{
+        text-transform: uppercase;
+        color: #fff;
+        transform: scaleY(1.5);
+        font-size: 25px;
+        margin-top: 70px;
+        font-weight: normal;
+        word-spacing: 10px;
+        letter-spacing: 10px;
+    }
+    .contact-left-content h1 span{
+        color: #FFD300;
+        
+    }
+    .contact-left-content p{
+        color: #fff;
+        margin-top: 70px;
+        font-family: 'italic';
+        transform: scaleY(1.5);
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    p.phone-no{
+        color: #FFD300;
+        font-size: 40px;
+        font-weight: normal;
+        margin-top: 40px;
+        transform: scaleY(1);
+    }
+    p.narrative{
+        text-transform: none;
+    }
+    
+    .contact-right{
+        padding-top: 20px;
+        padding-bottom: 80px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    form{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #fff;
+    }
+    .form-title{
+       text-transform: none;
+       font-size: 200%;
+       text-align: center;
+    }
+    .form-title p{
+        text-transform: none;
+    } 
+    input{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2.5px solid #006D7E;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 50px;
+    }
+    ::placeholder{
+        font-size: 100%;
+        font-weight: normal;
+    }
+    textarea{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-top: 30px;
+        border-bottom: 2.5px solid #006D7E;
+    }
+    .submit{
+        background: #006D7E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 100%;
+        color:#FFD300;
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+    .submit:hover{
+        background: #ffd300;
+        color:#006D7E;
+        border: none;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .footer{
+        width: 100%;
+        background-color: #074c57;
+    }
+    .footer-content{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 10%;
+    }
+    .footer-left-content{
+        padding: 30px 0;
+    }
+    .footer-content p{
+        color:#fff;
+        font-size: 13px;
+        font-weight: normal;
+        text-transform: none;
+        transform: scaleY(1.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-content span{
+        border: 1.5px solid #fff;
+        color:#fff;
+        border-radius: 50%;
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .footer-left-content a{
+        font-size: 13px;
+        font-weight: normal;
+        color: #5eb0bc;
+        text-decoration: underline;
+        transform: scaleX(0.9);
+    }
+    .footer-left-content a:hover{
+        color:#ffd300;
+        text-decoration: none;
+        transition: .5s;
+    }
+    .footer-left-content .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-left-content .links ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .footer-left-content .links ul li{
+        list-style: none;
+        margin-left: 10px;
+        transform: scaleY(1.7);
+    }
+    .kudos{
+        margin-top: 20px;
+        text-align: center;
+        transform: scaleY(1.9);
+    }
+    .kudos a{
+        text-transform: uppercase;
+        word-spacing: 2.5px;
+        color: #5eb0bc;
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+    .kudos a:hover{
+        text-decoration: underline;
+    }  
+}
